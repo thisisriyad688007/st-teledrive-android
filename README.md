@@ -1,4 +1,4 @@
-# Awd TeleDrive Android 📱🚀
+# ST TeleDrive Android 📱🚀
 
 <p align="center">
   <img src="logo-drive.png" width="130" height="130" alt="Awd TeleDrive Android Logo">
@@ -14,15 +14,15 @@
   <img src="https://img.shields.io/badge/Architecture-MVI--Clean-orange?style=flat-square" alt="MVI Clean Architecture">
 </p>
 
-**Awd TeleDrive Android** is an innovative Android application that transforms your Telegram account into an unlimited, secure personal cloud storage drive. Manage files, automate background backups, and navigate your media directory through a modern Material 3 interface built entirely with Jetpack Compose.
+**ST TeleDrive Android** is an innovative Android application that transforms your Telegram account into an unlimited, secure personal cloud storage drive. Manage files, automate background backups, and navigate your media directory through a modern Material 3 interface built entirely with Jetpack Compose.
 
 ---
 
 ## 🌐 Teledrive Ecosystem
 This application is part of a cross-platform ecosystem designed to turn Telegram into your personal unlimited cloud storage:
-*   **📱 [Awd TeleDrive Android](https://github.com/putuwahyu29/awd-teledrive-android)**: Secure Android file manager and backup tool.
-*   **💻 [Awd TeleDrive Desktop](https://github.com/putuwahyu29/awd-teledrive-desktop)**: High-performance Wails (Go) + React desktop client with two-way sync, local decryption, and Cloudflare Web Sharing.
-*   **📸 [Awd TelePhoto Android](https://github.com/putuwahyu29/awd-telephoto-android)**: Companion app for client-side encrypted photo/video backup.
+*   **📱 [ST TeleDrive Android](https://github.com/putuwahyu29/awd-teledrive-android)**: Secure Android file manager and backup tool.
+*   **💻 [ST TeleDrive Desktop](https://github.com/putuwahyu29/awd-teledrive-desktop)**: High-performance Wails (Go) + React desktop client with two-way sync, local decryption, and Cloudflare Web Sharing.
+*   **📸 [ST TelePhoto Android](https://github.com/putuwahyu29/awd-telephoto-android)**: Companion app for client-side encrypted photo/video backup.
 
 ---
 
@@ -72,7 +72,7 @@ This application is part of a cross-platform ecosystem designed to turn Telegram
 
 ## 📊 Feature Comparison Matrix
 
-| Feature | 📱 Awd TeleDrive Android | 💻 Awd TeleDrive Desktop | 📸 Awd TelePhoto Android |
+| Feature | 📱 ST TeleDrive Android | 💻 ST TeleDrive Desktop | 📸 ST TelePhoto Android |
 | :--- | :---: | :---: | :---: |
 | **Unlimited Cloud Storage** | Yes (Auto-Split for >2GB) | Yes (Any file size) | Yes (Photos & Videos) |
 | **File & Folder Manager** | Yes | Yes | Gallery View only |
@@ -102,12 +102,12 @@ All persistent data, cached sessions, and databases are stored securely in Andro
 *   An Android device running Android 8.0 (API 26) or higher.
 
 ### How to Obtain Telegram API Credentials
-Awd TeleDrive Android requires your own API credentials to connect with Telegram's servers. This is free and takes less than 2 minutes:
+ST TeleDrive Android requires your own API credentials to connect with Telegram's servers. This is free and takes less than 2 minutes:
 1. Go to [my.telegram.org](https://my.telegram.org/) and log in with your phone number.
 2. Select **API development tools**.
 3. Fill in the form (App title and short name of your choice).
 4. Copy the **App api_id** and **App api_hash**.
-5. Input these values in the configuration screen of the Awd TeleDrive Android app.
+5. Input these values in the configuration screen of the ST TeleDrive Android app.
 
 > [!NOTE]
 > These credentials remain strictly local. The application communicates directly with Telegram's endpoints and does not send your data to any third-party servers.
@@ -131,7 +131,7 @@ Awd TeleDrive Android requires your own API credentials to connect with Telegram
 
 ### Project Directory Structure
 ```
-awd-teledrive-android/
+ST-teledrive-android/
 ├── app/                    # Core Android App Module
 │   ├── src/
 │   │   ├── main/
